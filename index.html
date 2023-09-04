@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link name="favicon" type="image/x-icon" href="https://skillzam.com/uploads/system/e353194f3b7cd1b75d69c3ab88041985.png" rel="shortcut icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Online Resume</title>
+
+    <style>
+        * {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        html,
+        body {
+            padding: 0;
+            margin: 0;
+        }   
+
+        .lightGrey {
+            color: #000;
+            background-color: #f9f9f9;
+        }
+
+        .head,
+        .foot {
+            text-align: center;
+            color: white;
+            background-color: #3f51b5;
+            padding: 10px;
+            margin: 0;
+        }
+
+        .container {
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 1200px;
+        }
+
+        a {
+            color: white;
+            padding: 10px;
+        }
+        .Back-End-skill{
+            color:#240986
+        }
+        .Front-End-skill i{
+            color: #165ab4;
+            letter-spacing: 10px;
+        }
+        .Full-Stack-skill{
+            color: #240986;
+            letter-spacing: 10px;
+            justify-content: center;
+            align-items: center;
+        }
+        .oneThird {
+            float: left;
+            width: 30%;
+        }
+
+        .twoThird {
+            float: left;
+            width: 66%;
+        }
+
+        .clearFloat {
+            clear: both;
+        }
+
+        .margin-top {
+            margin-top: 16px;
+        }
+
+        .margin-bottom {
+            margin-bottom: 16px;
+        }
+
+        .card {
+            background-color: white;
+            box-shadow: 0px 4px 10px 1px lightgray;
+            padding: 16px;
+            margin: 0 8px 8px 8px;
+            margin-bottom: 16px;
+            border-radius: 5px;
+            justify-content: space-between;
+        }
+
+        .card:hover {
+            box-shadow: 0px 4px 10px 0px;
+        }
+
+        .dispRel {
+            position: relative;
+            padding-left: 15px;
+            justify-content: center;
+            align-items: center;
+        
+        }
+
+        .imgCaption {
+            position: relative;
+            left: 10px;
+            bottom: 0;
+            padding-top: 35px;
+            font-size: 30px;
+            font-family:ic 'Roboto', sans-serif ;
+            letter-spacing: 2px;
+        }
+        .icon-skill{
+            color: #165ab4;
+            letter-spacing: 5px;
+        }
+        .icon-skill:hover{
+            color: #7ab915;
+        }
+
+        .img-skill{
+            letter-spacing: 6px;
+        }
+        .img-skill:hover{
+            color: #5d9608;
+        }
+        .img-skill:hover{
+            color: #5d9608;
+        }
+        .link a i:hover{
+            color: #7ab915;
+        }
+        .text-icon {
+            color: #3f51b5;
+            padding-right: 16px;
+        }
+        .text-icon:hover{
+            color: #548609;
+        }
+        .text-icon i:hover{
+            color: #7ab915;
+        }
+        .text-icon-large {
+            color: #3f51b5;
+            padding-right: 16px;
+            font-size: larger;
+        }
+        .text-icon-large:hover{
+            color: #5d9608;
+        }
+       
+        .progress {
+            background-color: #f1f1f1;
+            width: 100%;
+            border-radius: 16px;
+        }
+
+        .progress90 {
+            background-color: #3f51b5;
+            width: 90%;
+            border-radius: 16px;
+            color: white;
+            text-align: center;
+        }
+
+        .progress80 {
+            background-color: #3f51b5;
+            width: 80%;
+            border-radius: 16px;
+            color: white;
+            text-align: center;
+        }
+
+        .progress75 {
+            background-color: #3f51b5;
+            width: 75%;
+            border-radius: 16px;
+            color: white;
+            text-align: center;
+        }
+
+        h4 {
+            color: darkgray;
+        }
+
+        .current {
+            color: white;
+            background-color: #3f51b5;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        @media (max-width: 800px) {
+            .oneThird {
+                width: 100%;
+                margin: 8px;
+            }
+
+            .twoThird {
+                width: 100%;
+                margin: 8px;
+            }
+        }
+    </style> 
+
+</head>
+
+<body  class="lightGrey">
+    <header class="head">
+        <h1>Online Resume</h1>
+    </header>
+    <main class="container margin-top margin-bottom">
+
+        <section class="oneThird card">
+            <section>
+                <div class="dispRel">
+                    <img src="/images/PROFILE.png" alt="Profile Image" width="100%">
+                    <h2 class="imgCaption">Mark Joseph Ortizano</h2>
+                </div>
+                <div class="text-icon">
+                    
+                    <p><i class="fa fa-home text-icon"></i>Cagayan de oro, Philippines</p>
+                    <p><i class="fa fa-briefcase text-icon"></i>Full Stack Web Developer</p>
+                    <p><i class="fa fa-globe text-icon-large"></i>www.myportfolio.netlify.com</p>
+                    <p><i class="fa fa-envelope text-icon"></i> markjoseph0rtizano24@gmail.com</p>
+                </div>
+            </section>
+            <hr>
+            <section>
+                <div class="Skill">
+                    <h2><i class="fa fa-asterisk text-icon-large"></i> Skills</h2>
+                    <p>Full Stack Web Developer</p>
+                    <div class="img-skill"> 
+                        <span><img src="./images/downloadmysql_30x30.jpg" alt=""></span>
+                        <span><img src="./images/downloadnavicat_30x30.jpg" alt=""></span>
+                        <span><img src="./images/downloadpostman_30x30.jpg" alt=""></span>
+                        <span><img src="./images/downloadvscode_30x30.jpg" alt=""></span>
+                        <span><img src="./images/downloadxampp_30x30.jpg" alt=""></span>
+                    </div><br>
+                    <div class="icon-skill">
+                        <i class="fa-brands fa-php fa-2xl"></i>
+                        <i class="fa-brands fa-js fa-2xl"></i>
+                        <i class="fa-brands fa-react fa-2xl"></i>
+                        <i class="fa-brands fa-html5 fa-2xl"></i>
+                        <i class="fa-brands fa-css3-alt fa-2xl"></i>
+                        <i class="fa-brands fa-laravel fa-2xl"></i>
+                    </div>
+                 
+                </div><br>
+                <hr>
+                <div>
+                    <h2><i class="fa fa-globe text-icon-large"></i> Languages</h2>
+                    <p>English</p>
+                    <p>tagalog</p>
+                    <p>bisaya/cebuano</p>
+                </div>
+            </section>
+        </section>
+
+        <section class="twoThird">
+            <section class="card">
+                <h2><i class="fa fa-suitcase text-icon-large"></i> Coding Project Experience</h2>
+                <div class="Front-End">
+                    <h4>Front End Web Development</h4>
+                    <h5><i class="fa fa-calendar text-icon"></i> Previous Skill - <span class="current">Current</span></h5>
+                    <p>Build a simple website using this Tools</p>
+                    <div class="Front-End-skill">
+                        <i class="fa-brands fa-html5 fa-2xl"></i>
+                        <i class="fa-brands fa-css3-alt fa-2xl"></i>
+                        <i class="fa-brands fa-js fa-2xl"></i>
+                        <i class="fa-brands fa-react fa-2xl"></i>
+                    </div>
+                    
+                </div>
+                <hr>
+                <div class="Back-End">
+                    <h4>Back End Web Development</h4>
+                    <h5><i class="fa fa-calendar text-icon"></i>Jan-2023</h5>
+                    <p>Build Website with Data and API Function </p>
+                    <div class="Back-End-skill">
+                        <i class="fa-brands fa-js fa-2xl"></i>
+                        <i class="fa-brands fa-react fa-2xl"></i>
+                    </div><br>
+                    
+                    <span><img src="./images/downloadmysql_30x30.jpg" alt=""></span>
+                    <span><img src="./images/downloadnavicat_30x30.jpg" alt=""></span>
+                    <span><img src="./images/downloadpostman_30x30.jpg" alt=""></span>
+                    <span><img src="./images/downloadvscode_30x30.jpg" alt=""></span>
+                    <span><img src="./images/downloadxampp_30x30.jpg" alt=""></span>
+                <hr>
+                <div class="Full-Stack">
+                    <h4>Full Stack Web Development</h4>
+                    <h5><i class="fa fa-calendar text-icon"></i>November-2022</h5>
+                    <p>Build Website for Full Access Both Simple and Database Website system</p>
+                    <div class="Full-Stack-skill"> 
+                        <i class="fa-brands fa-html5 fa-2xl"></i>
+                        <i class="fa-brands fa-css3-alt fa-2xl"></i>
+                        <i class="fa-brands fa-laravel fa-2xl"></i>
+                        <i class="fa-brands fa-php fa-2xl"></i>
+                    </div><br>
+                    <span><img src="./images/downloadmysql_30x30.jpg" alt=""></span>
+                    <span><img src="./images/downloadnavicat_30x30.jpg" alt=""></span>
+                    <span><img src="./images/downloadpostman_30x30.jpg" alt=""></span>
+                    <span><img src="./images/downloadvscode_30x30.jpg" alt=""></span>
+                    <span><img src="./images/downloadxampp_30x30.jpg" alt=""></span>
+                </div>
+            </section>
+
+            <section class="card">
+                <h2><i class="fa fa-certificate text-icon-large"></i>Education</h2>
+                <div>
+                    <h4>Full Stack Web Development Certification - Kodego.ph/Bootcamp</h4>
+                    <h5><i class="fa fa-calendar text-icon"></i>November/2022- March/2023</h5>
+                    <p>Front End Web Developemnt course</p>
+                    <p>back End Web Developemnt course</p>
+                    <p>Full Stack Web Developemnt course</p>
+                </div>
+                <hr>
+                <div>
+                    <h4>FIBER OPTIC Certification - Force-ph/Riyadh,KSA</h4>
+                    <h5><i class="fa fa-calendar text-icon"></i>September/2018- March/2019</h5>
+                    <p>Fiber Optic basic Course</p>
+                    <p>Fiber Optic Advance Course</p>
+                    <p>Fiber Optic Calibration Course</p>
+                    <p>Outside Plant(OSP)/Inside Plant(ISP):A Communication Project Quality Approch Telecom training Seminar/ IECEP-Riyadh Chapter, AL Riyadh, Riyadh,KSA</p>
+                </div>
+            </section>
+        </section>
+
+    </main>
+    <footer class="foot clearFloat">
+        <p>Social Media Connect :
+            <span class="link">
+                <a href="https://linkedin.com" ><i class="fab fa-linkedin"></i></a>
+                <a href="https://twitter.com" ><i class="fab fa-twitter"></i></a>
+                <a href="https://workzam.com"><i class="fab">W</i></a>
+                <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+                <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
+            </span>
+        </p>
+    </footer>
+
+</body>
+
+</html>
